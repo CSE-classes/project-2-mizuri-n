@@ -164,6 +164,7 @@ void            uartputc(int);
 
 // vm.c
 void            seginit(void);
+int		mappages(pde_t*, void*, uint, uint, int);
 void            kvmalloc(void);
 void            vmenable(void);
 pde_t*          setupkvm(void);

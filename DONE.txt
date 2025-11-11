@@ -1,0 +1,2 @@
+Corbin Ray 1001806548
+My test outputs are the same as the ones for the online document, both default allocator and lazy page allocator.
